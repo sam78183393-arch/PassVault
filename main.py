@@ -13,7 +13,7 @@ Interactive CLI menu for SecureVault features:
 9. Export Data
 0. Exit
 """
-print("STARTED")
+
 import sys
 from password_strength_analyzer import check_strength
 from password_generator import generate_password
