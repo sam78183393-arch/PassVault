@@ -103,7 +103,7 @@ SecureVault/
 Requires Python 3.12 or later.
 
 ```bash
-git clone <this-repository>
+git clone https://github.com/sam78183393-arch/SecureVault.git
 cd SecureVault
 python -m venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
@@ -122,7 +122,7 @@ You'll be presented with an interactive menu to generate passwords, analyze stre
 
 ```bash
 pip install -r requirements.txt
-pytest tests/ -v --cov=. --cov-report=term-missing
+pytest Test/ -v --cov=. --cov-report=term-missing
 ```
 
 The suite includes unit tests for every module and integration tests covering the full add → persist → reload → backup → restore lifecycle, with the HaveIBeenPwned API mocked so tests never make real network calls. Business-logic coverage exceeds 90% (see `setup.cfg`, which excludes the thin interactive CLI wiring in `main.py` from the coverage target).
