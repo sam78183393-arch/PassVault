@@ -27,3 +27,13 @@ htmlcov/
 .vscode/
 .idea/
 *.swp
+
+cryptography
+requests
+pytest
+pytest-cov
+pytest-mock
+
+
+
+
