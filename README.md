@@ -1,6 +1,6 @@
-# 🔐 PassVault
+# 🔐 SecureVault
 
-**PassVault** is a command-line password security suite written in Python. It lets you generate strong passwords, analyze password strength, check passwords against known data breaches, and securely store, retrieve, and manage credentials — all from a simple interactive menu.
+**SecureVault** is a command-line password security suite written in Python. It lets you generate strong passwords, analyze password strength, check passwords against known data breaches, and securely store, retrieve, and manage credentials — all from a simple interactive menu.
 
 ---
 
