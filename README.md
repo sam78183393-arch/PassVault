@@ -14,7 +14,6 @@ A production-quality, layered-architecture password management CLI written in Py
 - [How to Run](#how-to-run)
 - [How to Test](#how-to-test)
 - [Security Features](#security-features)
-- [Screenshots](#screenshots)
 - [Future Scope](#future-scope)
 - [License](#license)
 
@@ -139,14 +138,7 @@ The suite includes unit tests for every module and integration tests covering th
 
 See [SECURITY.md](SECURITY.md) for the full security policy.
 
-## Screenshots
 
-> _Screenshots of the CLI in action (menu, password generation, breach check, and export flows) go here. Run `python main.py` locally and capture your terminal session to fill in this section._
-
-- `docs/screenshots/main-menu.png` — the interactive main menu
-- `docs/screenshots/generate-password.png` — password generation with entropy/strength output
-- `docs/screenshots/breach-check.png` — a breach check result
-- `docs/screenshots/export-summary.png` — an export operation with its SHA-256 hash
 
 ## Future Scope
 
